@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex justify-around items-center fixed w-full h-[52px] top-0 shadow-sm bg-white">
+    <div className="z-50 flex justify-around items-center fixed w-full h-[52px] top-0 shadow-sm bg-white">
       <div className="italic text-blue-800 text-lg font-semibold cursor-pointer px-[18px] py-0">
         NyamNyam
       </div>
